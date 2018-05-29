@@ -1,0 +1,65 @@
+.bg-touka {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-orange {
+    background-color: #FF6928;
+    color: #FFF;
+}
+
+.btn-orange {
+    background-color: #FF6928;
+    color: #FFF;
+}
+
+.inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.overlay {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/dot.png");
+}
+
+.outer {
+    position: relative;
+    z-index: 1;
+}
+
+.text-orange {
+    color: #FF6928;
+}
+
+.lh-1 {
+    line-height: 1em;
+}
+
+.lh-2 {
+    line-height: 2em;
+}
+
+.lh-3 {
+    line-height: 3em;
+}
+
+.lh-4 {
+    line-height: 4em;
+}
+
+.lh-5 {
+    line-height: 5em;
+}
+
+body {
+    font-family: 'Noto Serif', serif !important;
+}
