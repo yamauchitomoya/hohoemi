@@ -1,637 +1,545 @@
 <!DOCTYPE html>
 <html lang=ja>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- PAGE settings -->
-    <link rel="icon" href="favicon">
-    <title>社会福祉法人ほほえみ - デモサイト</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <!-- CSS dependencies -->
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/jpn.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <!-- Script: Make my navbar transparent when the document is scrolled to top -->
-    <script src="js/navbar-ontop.js"></script>
-    <!-- Script: Animated entrance -->
-    <script src="js/animate-in.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- PAGE settings -->
+<link rel="icon" href="favicon">
+<title>社会福祉法人ほほえみ - デモサイト</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<!-- CSS dependencies -->
+<link rel="stylesheet" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/jpn.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<!-- Script: Make my navbar transparent when the document is scrolled to top -->
+<script src="js/navbar-ontop.js"></script>
+<!-- Script: Animated entrance -->
+<script src="js/animate-in.js"></script>
 </head>
 
 <body class="text-center">
-    <header id="top" class="">
-        <nav class="navbar navbar-expand-md bg-light navbar-dark fixed-top">
-            <div class="container">
-                <img src="images/logo.png" alt="" class="w-25">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark" href="#top">トップ</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark" href="#about">ほほえみについて</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark" href="#message">代表挨拶</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark" href="#facility">施設案内</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link text-dark" href="#contact">お問い合わせ</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- /header -->
-    <div class="d-flex align-items-center">
-        <div class="container-fluid d-none d-md-block">
-            <div class="row justify-content-center">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <div class="inner">
-                        <div class="row">
-                            <div class="col-md-12" style="margin-top:-40%;">
-                                <div class="textcontainer">
-                                    <span class="particletext confetti text-orange">SMILE </span>HAS SPREAD THE PACKAGE.
-                                </div>
-                                <h1 class="mb-5"><img src="images/logo.png" alt="" class="w-25"></h1>
-                                <p>
-                                    <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                        News・新着情報
-                                    </button>
-                                </p>
-                                <div class="collapse" id="collapseExample">
-                                    <div class="card card-body">
-                                        コンテンツが表示されます。
-                                    </div>
-                                </div>
-                                <i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <video class="embed-responsive-item" src="movie/sample.mov" playsinline autoplay loop muted allowfullscreen></video>
-                    <div class="overlay"></div>
-                </div>
-            </div>
-        </div>
+<header id="top" class="">
+  <nav class="navbar navbar-expand-md bg-light navbar-dark fixed-top">
+    <div class="container"> <img src="images/logo.png" alt="" class="w-25">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2"> <a class="nav-link text-dark" href="#top">トップ</a> </li>
+          <li class="nav-item mx-2"> <a class="nav-link text-dark" href="#about">ほほえみについて</a> </li>
+          <li class="nav-item mx-2"> <a class="nav-link text-dark" href="#message">代表挨拶</a> </li>
+          <li class="nav-item mx-2"> <a class="nav-link text-dark" href="#facility">施設案内</a> </li>
+          <li class="nav-item mx-2"> <a class="nav-link text-dark" href="#contact">お問い合わせ</a> </li>
+        </ul>
+      </div>
     </div>
-    <div class="d-flex align-items-center d-block d-md-none">
+  </nav>
+</header>
+<!-- /header -->
+<div class="d-flex align-items-center">
+  <div class="container-fluid d-none d-md-block">
+    <div class="row justify-content-center">
+      <div class="embed-responsive embed-responsive-16by9">
+        <div class="inner">
+          <div class="row">
+            <div class="col-md-12" style="margin-top:-40%;">
+              <div class="textcontainer"> <span class="particletext confetti text-orange">SMILE </span>HAS SPREAD THE PACKAGE. </div>
+              <h1 class="mb-5"><img src="images/logo.png" alt="" class="w-25"></h1>
+              <p>
+                <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> News・新着情報 </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body"> コンテンツが表示されます。 </div>
+              </div>
+              <i class="d-block fa fa-angle-down pt-5 fa-3x"></i> </div>
+          </div>
+        </div>
+        <video class="embed-responsive-item" src="movie/sample.mov" playsinline autoplay loop muted allowfullscreen></video>
+        <div class="overlay"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex align-items-center d-block d-md-none">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="row outer">
+        <div class="col-md-12 inner">
+          <div class="textcontainer"> <span class="particletext confetti text-orange">SMILE </span>HAS SPREAD THE PACKAGE. </div>
+          <h1 class="mb-5">ロゴ</h1>
+          <p>
+            <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#collapseExamplesp" aria-expanded="false" aria-controls="collapseExample"> News・新着情報 </button>
+          </p>
+          <div class="collapse" id="collapseExamplesp">
+            <div class="card card-body"> コンテンツが表示されます。 </div>
+          </div>
+          <i class="d-block fa fa-angle-down pt-5 fa-3x"></i> </div>
+        <video class="d-block d-md-none h-100 w-100" src="movie/sample.mov" playsinline autoplay loop muted allowfullscreen></video>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section-parallax h-100" style="background-image: url('images/1.jpg');">
+  <h1 class="text-dark">施設外観</h1>
+</div>
+<div class="py-5 bg-light" id="about">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3 class="text-orange">「与えられる人」から「与える人」へ。 <br>
+          世の価値観をちょっとだけ変える本気の挑戦。</h3>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6 my-5"> <img src="images/1.jpg" alt="" class="rounded shadowed w-50"> </div>
+      <div class="col-md-6 mb-3">
+        <p class="lead text-orange"></p>
+        <p class="lead">ご高齢の方も小さなお子さんも <br>
+          障がいのある方もそうでない方も <br>
+          ○も☓も含めてまるごと受け入れていくこと <br>
+          <br>
+          受け入れることで喜びを与えることができる <br>
+          <br>
+          「過去＝与えられる人」から「現在＝与える人」へ <br>
+          そしてより良い「未来＝社会」へと共に歩んでいきたい <br>
+          <br>
+          それが私たちの本気の挑戦です </p>
+        <button type="button" class="btn btn-lg mt-5 mx-1 btn-outline-dark" data-toggle="modal" data-target="#aboutus">ほほえみについて<span class="ml-2">&gt;</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-5 section-parallax h-100" style="background-image: url('images/2.jpg');">
+  <h1 class="text-dark">職員と利用者さんのふれあい写真</h1>
+</div>
+<div class="py-5 bg-light" id="message">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3 class="text-orange">今井 隆太</h3>
+        <p>社会福祉法人 ほほえみ 代表</p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6 my-5"> <img src="images/3.jpg" class="rounded shadowed w-50"> </div>
+      <div class="col-md-6">
+        <p class="lead">社会福祉法人ほほえみは知的障がい者専門の入所施設として <br>
+          〇〇年青森県平川市に産声をあげました。 <br>
+          <br>
+          一般企業への就労が難しい知的障がいをお持ちの方に <br>
+          入所もしくは通所をしてもらいながら <br>
+          <br>
+          「働く場」、「訓練の場」、「交流の場」、「生活の場」の <br>
+          サービス提供を行っています。 </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-5 section-parallax h-100" style="background-image: url('images/4.jpg');">
+  <h1 class="text-dark">職員と利用者さんのふれあい写真2</h1>
+</div>
+<div class="py-5 text-center text-dark opaque-overlay section-light" id="facility">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 p-4"> <img src="images/logo/logo_1.png" alt="" class="w-25">
+        <h3 class="my-3">ほほえみ</h3>
+        <p>施設情報</p>
+        <ul class="text-left">
+          <li>ご利用方法</li>
+          <li>開所時間</li>
+          <li>休所日</li>
+          <li>住所</li>
+          <li>電話</li>
+          <li>FAX</li>
+          <li>メール</li>
+        </ul>
+        <p>
+          <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample"> 詳細 </button>
+        </p>
+      </div>
+      <div class="col-md-3 p-4"> <img src="images/logo/logo_2.png" alt="" class="w-25">
+        <h3 class="my-3">カリフラワー</h3>
+        <p>施設情報</p>
+        <ul class="text-left">
+          <li>ご利用方法</li>
+          <li>開所時間</li>
+          <li>休所日</li>
+          <li>住所</li>
+          <li>電話</li>
+          <li>FAX</li>
+          <li>メール</li>
+        </ul>
+        <p>
+          <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample"> 詳細 </button>
+        </p>
+      </div>
+      <div class="col-md-3 p-4"> <img src="images/logo/logo_3.png" alt="" class="w-25">
+        <h3 class="my-3">uniメゾン</h3>
+        <p>施設情報</p>
+        <ul class="text-left">
+          <li>ご利用方法</li>
+          <li>開所時間</li>
+          <li>休所日</li>
+          <li>住所</li>
+          <li>電話</li>
+          <li>FAX</li>
+          <li>メール</li>
+        </ul>
+        <p>
+          <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample"> 詳細 </button>
+        </p>
+      </div>
+      <div class="col-md-3 p-4"> <img src="images/logo/logo_4.png" alt="" class="w-25">
+        <h3 class="my-3">おらんど</h3>
+        <p>施設情報</p>
+        <ul class="text-left">
+          <li>ご利用方法</li>
+          <li>開所時間</li>
+          <li>休所日</li>
+          <li>住所</li>
+          <li>電話</li>
+          <li>FAX</li>
+          <li>メール</li>
+        </ul>
+        <p>
+          <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample"> 詳細 </button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-light">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 p-0">
+        <div class="slick-slider">
+          <div> <img src="images/slider/slider_1.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal" style="cursor:pointer;"> </div>
+          <div> <img src="images/slider/slider_2.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal2" style="cursor:pointer;"> </div>
+          <div> <img src="images/slider/slider_3.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal3" style="cursor:pointer;"> </div>
+          <dvi> <img src="images/slider/slider_4.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal4" style="cursor:pointer;"> </dvi>
+          <dvi>
+          <img src="images/slider/slider_5.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal5" style="cursor:pointer;"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="py-5 section-parallax h-100 section-light" style="background-image: url('images/5.jpg');">
+  <h1 class="text-dark">集合写真</h1>
+</div>
+<footer id="contact">
+  <div class="py-5 section-dark" style="background-image: url('images/1.jpg');">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 text-white mb-5">
+          <h3>社会福祉法人ほほえみ</h3>
+          <p>〒036-0162 青森県平川市館山前田80番地1 <br>
+            <i class="fas fa-phone"></i> 0172-44-0033&nbsp;&nbsp;<i class="fas fa-fax"></i> 0172-44-0034</p>
+          <p>
+            <button type="button" class="btn btn-primary"> プライバシーポリシー </button>
+          </p>
+          <a href="# " class="btn btn-lg mx-1 btn-secondary">Facebook</a> <a href="# " class="btn btn-lg mx-1 btn-danger">Instagram</a> </div>
+        <div class="col-lg-4 col-md-12 text-left mb-5">
+          <h3 class="text-center">お問い合わせフォーム</h3>
+          <p>必要事項をご記入の上、送信ボタンを押してください。後日担当者よりご連絡差し上げます。</p>
+          <form>
+            <div class="form-group">
+              <label for="InputName ">お名前</label>
+              <input type="text" class="form-control form-control-lg" id="InputName" placeholder="お名前">
+            </div>
+            <div class="form-group mt-3">
+              <label for="InputEmail1">Eメール</label>
+              <input type="email" class="form-control form-control-lg" id="InputEmail1" placeholder="Eメール">
+            </div>
+            <div class="form-group mt-3">
+              <label for="Textarea">内容</label>
+              <textarea class="form-control form-control-lg" id="Textarea" rows="3" placeholder="お問い合わせ内容"></textarea>
+            </div>
+            <button type="submit" class="mt-3 btn btn-lg btn-outline-light">送信</button>
+          </form>
+        </div>
+        <div class="col-lg-5 col-md-12 text-white">
+          <p>弘前駅より <br>
+            ・弘南鉄道弘南線 黒石行「館田駅」下車 徒歩17分 <br>
+            ・県道109号線経由 車12分</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3029.546033532577!2d140.53403335180613!3d40.59577487924333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x5f9b03cb993c2a4f%3A0x2d84efd4fc9a6787!2z44CSMDM2LTAxNjIg6Z2S5qOu55yM5bmz5bed5biC6aSo5bGx5YmN55Sw77yY77yQ4oiS77yR!3m2!1d40.595774899999995!2d140.5362274!5e0!3m2!1sja!2sjp!4v1527043279743 " width="600 " height="450 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-3 text-center">
+          <p>© Copyright 2018 社会福祉法人ほほえみ - All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer --> 
+<!-- Modal -->
+<div class="modal fade" id="aboutus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ほほえみについて</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body text-left">
+        <ul>
+          <li>法人概要、沿革、決算報告pdf、現状報告pdf</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-orange" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="facility1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">施設情報 ほほえみ</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
         <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="row outer">
-                    <div class="col-md-12 inner">
-                        <div class="textcontainer">
-                            <span class="particletext confetti text-orange">SMILE </span>HAS SPREAD THE PACKAGE.
-                        </div>
-                        <h1 class="mb-5">ロゴ</h1>
-                        <p>
-                            <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#collapseExamplesp" aria-expanded="false" aria-controls="collapseExample">
-                                News・新着情報
-                            </button>
-                        </p>
-                        <div class="collapse" id="collapseExamplesp">
-                            <div class="card card-body">
-                                コンテンツが表示されます。
-                            </div>
-                        </div>
-                        <i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
-                    </div>
-                    <video class="d-block d-md-none h-100 w-100" src="movie/sample.mov" playsinline autoplay loop muted allowfullscreen></video>
-                </div>
-            </div>
+          <div class="row">
+            <div class="align-self-center col-md-6">施設外観写真</div>
+            <div class="align-self-center col-md-6 ml-auto">詳細</div>
+          </div>
         </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="section-parallax h-100" style="background-image: url('images/1.jpg');">
-        <h1 class="text-dark">施設外観</h1>
-    </div>
-    <div class="py-5 bg-light" id="about">
+  </div>
+</div>
+<div class="modal fade" id="facility2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">施設情報 カリフラワー</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
         <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h3 class="text-orange">「与えられる人」から「与える人」へ。
-                        <br>世の価値観をちょっとだけ変える本気の挑戦。</h3>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6 my-5">
-                    <img src="images/1.jpg" alt="" class="rounded shadowed w-50">
-                </div>
-                <div class="col-md-6 mb-3">
-                    <p class="lead text-orange"></p>
-                    <p class="lead">ご高齢の方も小さなお子さんも
-                        <br> 障がいのある方もそうでない方も
-                        <br> ○も☓も含めてまるごと受け入れていくこと
-                        <br>
-                        <br> 受け入れることで喜びを与えることができる
-                        <br>
-                        <br> 「過去＝与えられる人」から「現在＝与える人」へ
-                        <br> そしてより良い「未来＝社会」へと共に歩んでいきたい
-                        <br>
-                        <br> それが私たちの本気の挑戦です
-                    </p>
-                    <button type="button" class="btn btn-lg mt-5 mx-1 btn-outline-dark" data-toggle="modal" data-target="#aboutus">ほほえみについて<span class="ml-2">&gt;</span></button>
-                </div>
-            </div>
+          <div class="row">
+            <div class="align-self-center col-md-6">施設外観写真</div>
+            <div class="align-self-center col-md-6 ml-auto">詳細</div>
+          </div>
         </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="py-5 section-parallax h-100" style="background-image: url('images/2.jpg');">
-        <h1 class="text-dark">職員と利用者さんのふれあい写真</h1>
-    </div>
-    <div class="py-5 bg-light" id="message">
+  </div>
+</div>
+<div class="modal fade" id="facility3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">施設情報 uniメゾン</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
         <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h3 class="text-orange">今井 隆太</h3>
-                    <p>社会福祉法人 ほほえみ 代表</p>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6 my-5">
-                    <img src="images/3.jpg" class="rounded shadowed w-50">
-                </div>
-                <div class="col-md-6">
-                    <p class="lead">社会福祉法人ほほえみは知的障がい者専門の入所施設として
-                        <br> 〇〇年青森県平川市に産声をあげました。
-                        <br>
-                        <br>一般企業への就労が難しい知的障がいをお持ちの方に
-                        <br>入所もしくは通所をしてもらいながら
-                        <br>
-                        <br> 「働く場」、「訓練の場」、「交流の場」、「生活の場」の
-                        <br> サービス提供を行っています。
-                    </p>
-                </div>
-            </div>
+          <div class="row">
+            <div class="align-self-center col-md-6">施設外観写真</div>
+            <div class="align-self-center col-md-6 ml-auto">詳細</div>
+          </div>
         </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="py-5 section-parallax h-100" style="background-image: url('images/4.jpg');">
-        <h1 class="text-dark">職員と利用者さんのふれあい写真2</h1>
-    </div>
-    <div class="py-5 text-center text-dark opaque-overlay section-light" id="facility">
+  </div>
+</div>
+<div class="modal fade" id="facility4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">施設情報 おらんど</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3 p-4">
-                    <img src="images/logo/logo_1.png" alt="" class="w-25">
-                    <h3 class="my-3">ほほえみ</h3>
-                    <p>施設情報</p>
-                    <ul class="text-left">
-                        <li>ご利用方法</li>
-                        <li>開所時間</li>
-                        <li>休所日</li>
-                        <li>住所</li>
-                        <li>電話</li>
-                        <li>FAX</li>
-                        <li>メール</li>
-                    </ul>
-                    <p>
-                        <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample">
-                            詳細
-                        </button>
-                    </p>
-                </div>
-                <div class="col-md-3 p-4">
-                    <img src="images/logo/logo_2.png" alt="" class="w-25">
-                    <h3 class="my-3">カリフラワー</h3>
-                    <p>施設情報</p>
-                    <ul class="text-left">
-                        <li>ご利用方法</li>
-                        <li>開所時間</li>
-                        <li>休所日</li>
-                        <li>住所</li>
-                        <li>電話</li>
-                        <li>FAX</li>
-                        <li>メール</li>
-                    </ul>
-                    <p>
-                        <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample">
-                            詳細
-                        </button>
-                    </p>
-                </div>
-                <div class="col-md-3 p-4">
-                    <img src="images/logo/logo_3.png" alt="" class="w-25">
-                    <h3 class="my-3">uniメゾン</h3>
-                    <p>施設情報</p>
-                    <ul class="text-left">
-                        <li>ご利用方法</li>
-                        <li>開所時間</li>
-                        <li>休所日</li>
-                        <li>住所</li>
-                        <li>電話</li>
-                        <li>FAX</li>
-                        <li>メール</li>
-                    </ul>
-                    <p>
-                        <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample">
-                            詳細
-                        </button>
-                    </p>
-                </div>
-                <div class="col-md-3 p-4">
-                    <img src="images/logo/logo_4.png" alt="" class="w-25">
-                    <h3 class="my-3">おらんど</h3>
-                    <p>施設情報</p>
-                    <ul class="text-left">
-                        <li>ご利用方法</li>
-                        <li>開所時間</li>
-                        <li>休所日</li>
-                        <li>住所</li>
-                        <li>電話</li>
-                        <li>FAX</li>
-                        <li>メール</li>
-                    </ul>
-                    <p>
-                        <button type="button" class="btn btn-lg mt-4 btn-outline-dark" data-toggle="collapse" data-target="#" aria-expanded="false" aria-controls="collapseExample">
-                            詳細
-                        </button>
-                    </p>
-                </div>
-            </div>
+          <div class="row">
+            <div class="align-self-center col-md-6">施設外観写真</div>
+            <div class="align-self-center col-md-6 ml-auto">詳細</div>
+          </div>
         </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="bg-light">
+  </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ギャラリー1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 p-0">
-                    <div class="slick-slider">
-                        <div>
-                            <img src="images/slider/slider_1.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal" style="cursor:pointer;">
-                        </div>
-                        <div>
-                            <img src="images/slider/slider_2.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal2" style="cursor:pointer;">
-                        </div>
-                        <div>
-                            <img src="images/slider/slider_3.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal3" style="cursor:pointer;">
-                        </div>
-                        <div>
-                            <img src="images/slider/slider_4.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal4" style="cursor:pointer;">
-                        </div>
-                        <div>
-                            <img src="images/slider/slider_5.jpg" alt="" class="w-100" data-toggle="modal" data-target="#myModal5" style="cursor:pointer;">
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="row">
+            <div class="align-self-center col-md-6"><img src="images/slider/slider_1.jpg" alt="" class="w-100"></div>
+            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
+          </div>
         </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="py-5 section-parallax h-100 section-light" style="background-image: url('images/5.jpg');">
-        <h1 class="text-dark">集合写真</h1>
+  </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ギャラリー2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="align-self-center col-md-6"><img src="images/slider/slider_2.jpg" alt="" class="w-100"></div>
+            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <footer id="contact">
-        <div class="py-5 section-dark" style="background-image: url('images/1.jpg');">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3 col-md-12 text-white mb-5">
-                        <h3>社会福祉法人ほほえみ</h3>
-                        <p>〒036-0162 青森県平川市館山前田80番地1
-                            <br><i class="fas fa-phone"></i> 0172-44-0033&nbsp;&nbsp;<i class="fas fa-fax"></i> 0172-44-0034</p>
-                        <p>
-                            <button type="button" class="btn btn-primary">
-                                プライバシーポリシー
-                            </button>
-                        </p>
-                        <a href="# " class="btn btn-lg mx-1 btn-secondary">Facebook</a>
-                        <a href="# " class="btn btn-lg mx-1 btn-danger">Instagram</a>
-                    </div>
-                    <div class="col-lg-4 col-md-12 text-left mb-5">
-                        <h3 class="text-center">お問い合わせフォーム</h3>
-                        <p>必要事項をご記入の上、送信ボタンを押してください。後日担当者よりご連絡差し上げます。</p>
-                        <form>
-                            <div class="form-group">
-                                <label for="InputName ">お名前</label>
-                                <input type="text" class="form-control form-control-lg" id="InputName" placeholder="お名前"> </div>
-                            <div class="form-group mt-3">
-                                <label for="InputEmail1">Eメール</label>
-                                <input type="email" class="form-control form-control-lg" id="InputEmail1" placeholder="Eメール"> </div>
-                            <div class="form-group mt-3">
-                                <label for="Textarea">内容</label>
-                                <textarea class="form-control form-control-lg" id="Textarea" rows="3" placeholder="お問い合わせ内容"></textarea>
-                            </div>
-                            <button type="submit" class="mt-3 btn btn-lg btn-outline-light">送信</button>
-                        </form>
-                    </div>
-                    <div class="col-lg-5 col-md-12 text-white">
-                        <p>弘前駅より
-                            <br>・弘南鉄道弘南線 黒石行「館田駅」下車 徒歩17分
-                            <br>・県道109号線経由 車12分</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3029.546033532577!2d140.53403335180613!3d40.59577487924333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x5f9b03cb993c2a4f%3A0x2d84efd4fc9a6787!2z44CSMDM2LTAxNjIg6Z2S5qOu55yM5bmz5bed5biC6aSo5bGx5YmN55Sw77yY77yQ4oiS77yR!3m2!1d40.595774899999995!2d140.5362274!5e0!3m2!1sja!2sjp!4v1527043279743 " width="600 " height="450 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ギャラリー3</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="align-self-center col-md-6"><img src="images/slider/slider_3.jpg" alt="" class="w-100"></div>
+            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
+          </div>
         </div>
-        <div class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mt-3 text-center">
-                        <p>© Copyright 2018 社会福祉法人ほほえみ - All rights reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer -->
-    <!-- Modal -->
-    <div class="modal fade" id="aboutus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ほほえみについて</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body text-left">
-                    <ul>
-                        <li>法人概要、沿革、決算報告pdf、現状報告pdf</li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-orange" data-dismiss="modal">閉じる</button>
-                </div>
-            </div>
-        </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="modal fade" id="facility1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">施設情報 ほほえみ</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6">施設外観写真</div>
-                            <div class="align-self-center col-md-6 ml-auto">詳細</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ギャラリー4</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="align-self-center col-md-6"><img src="images/slider/slider_4.jpg" alt="" class="w-100"></div>
+            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
+          </div>
         </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="modal fade" id="facility2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">施設情報 カリフラワー</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6">施設外観写真</div>
-                            <div class="align-self-center col-md-6 ml-auto">詳細</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ギャラリー5</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <!-- /.modal-header -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="align-self-center col-md-6"><img src="images/slider/slider_5.jpg" alt="" class="w-100"></div>
+            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
+          </div>
         </div>
+      </div>
+      <!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
+      </div>
+      <!-- /.modal-footer --> 
     </div>
-    <div class="modal fade" id="facility3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">施設情報 uniメゾン</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6">施設外観写真</div>
-                            <div class="align-self-center col-md-6 ml-auto">詳細</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ギャラリー6</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"> <span aria-hidden="true">&times;</span> </button>
+      </div>
     </div>
-    <div class="modal fade" id="facility4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">施設情報 おらんど</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6">施設外観写真</div>
-                            <div class="align-self-center col-md-6 ml-auto">詳細</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">ギャラリー1</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6"><img src="images/bg_5.jpg" alt="" class="w-100"></div>
-                            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">ギャラリー2</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6"><img src="images/bg_6.jpg" alt="" class="w-100"></div>
-                            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">ギャラリー3</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6"><img src="images/bg_7.jpg" alt="" class="w-100"></div>
-                            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">ギャラリー4</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6"><img src="images/bg_8.jpg" alt="" class="w-100"></div>
-                            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">ギャラリー5</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6"><img src="images/slider_5.jpeg" alt="" class="w-100"></div>
-                            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">ギャラリー6</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- /.modal-header -->
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="align-self-center col-md-6"><img src="assets/styleguide/cover_4.jpg" alt="" class="w-100"></div>
-                            <div class="align-self-center col-md-6 ml-auto">画像ギャラリーとして利用</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.modal-body -->
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-orange" data-dismiss="modal">閉じる</button>
-                </div>
-                <!-- /.modal-footer -->
-            </div>
-        </div>
-    </div>
-    <!-- ./Modal -->
-    <!-- JavaScript dependencies -->
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Script: Smooth scrolling between anchors in a same page -->
-    <script src="js/smooth-scroll.js"></script>
-    <script src="js/animate.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-    <pingendo onclick="window.open( 'https://pingendo.com/', '_blank') " style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white ">DEMO SITE
-    </pingendo>
-    <script>
+  </div>
+</div>
+<!-- ./Modal --> 
+<!-- JavaScript dependencies --> 
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+<!-- Script: Smooth scrolling between anchors in a same page --> 
+<script src="js/smooth-scroll.js"></script> 
+<script src="js/animate.js"></script> 
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<pingendo onclick="window.open( 'https://pingendo.com/', '_blank') " style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white ">DEMO SITE </pingendo>
+<script>
     $('.slick-slider').slick({
         dots: false,
         arrows: false,
@@ -667,5 +575,4 @@
     });
     </script>
 </body>
-
 </html>
